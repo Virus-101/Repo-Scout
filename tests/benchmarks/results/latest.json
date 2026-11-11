@@ -1,0 +1,116 @@
+{
+  "env": {
+    "node": "v22.23.4",
+    "platform": "linux/x64",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "cores": 4,
+    "generatedAt": "2026-11-11T23:09:24.048Z",
+    "note": "Mocked providers (0 ms latency): numbers show local processing cost only."
+  },
+  "results": [
+    {
+      "benchmark": "task understanding (local)",
+      "runs": 200,
+      "medianMs": 0.7,
+      "p95Ms": 1.42
+    },
+    {
+      "benchmark": "candidate filtering (Level 1) n=1000",
+      "runs": 5,
+      "medianMs": 3.74,
+      "p95Ms": 7.52,
+      "items": 1000,
+      "itemsPerSec": 267380
+    },
+    {
+      "benchmark": "hybrid ranking (BM25+metadata) n=1000",
+      "runs": 3,
+      "medianMs": 19.25,
+      "p95Ms": 25.02,
+      "items": 1000,
+      "itemsPerSec": 51948
+    },
+    {
+      "benchmark": "candidate filtering (Level 1) n=10000",
+      "runs": 5,
+      "medianMs": 20.39,
+      "p95Ms": 47.97,
+      "items": 10000,
+      "itemsPerSec": 490436
+    },
+    {
+      "benchmark": "hybrid ranking (BM25+metadata) n=10000",
+      "runs": 3,
+      "medianMs": 141.18,
+      "p95Ms": 151.46,
+      "items": 10000,
+      "itemsPerSec": 70832
+    },
+    {
+      "benchmark": "candidate filtering (Level 1) n=50000",
+      "runs": 5,
+      "medianMs": 103.09,
+      "p95Ms": 106.92,
+      "items": 50000,
+      "itemsPerSec": 485013
+    },
+    {
+      "benchmark": "hybrid ranking (BM25+metadata) n=50000",
+      "runs": 3,
+      "medianMs": 695.04,
+      "p95Ms": 719.07,
+      "items": 50000,
+      "itemsPerSec": 71938
+    },
+    {
+      "benchmark": "adaptive scoring (Level 2) n=5000",
+      "runs": 3,
+      "medianMs": 91.86,
+      "p95Ms": 169.37,
+      "items": 5000,
+      "itemsPerSec": 54431
+    },
+    {
+      "benchmark": "cache hit (50-resource payload, file SQLite)",
+      "runs": 5,
+      "medianMs": 245.98,
+      "p95Ms": 250.99,
+      "operations": 2000,
+      "opsPerSec": 8131
+    },
+    {
+      "benchmark": "cache write (50-resource payload)",
+      "runs": 5,
+      "medianMs": 65.26,
+      "p95Ms": 123.26,
+      "operations": 500
+    },
+    {
+      "benchmark": "resource upsert batch (1000 resources, one transaction)",
+      "runs": 5,
+      "medianMs": 8.2,
+      "p95Ms": 20.26,
+      "items": 1000
+    },
+    {
+      "benchmark": "end-to-end discover, cold cache, mocked providers",
+      "runs": 5,
+      "medianMs": 19.92,
+      "p95Ms": 73.27
+    },
+    {
+      "benchmark": "end-to-end discover, warm SQLite cache, mocked providers",
+      "runs": 20,
+      "medianMs": 7.06,
+      "p95Ms": 10
+    },
+    {
+      "benchmark": "memory: 50k candidates ranked, 5k evaluated, markdown+JSON rendered",
+      "rssMB": 295.5,
+      "heapUsedMB": 160,
+      "heapGrowthMB": 140.1,
+      "markdownKB": 3777,
+      "jsonKB": 6622
+    }
+  ]
+}

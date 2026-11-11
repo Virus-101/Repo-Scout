@@ -1,0 +1,14 @@
+{
+  "name": "@repo-scout/trending",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@repo-scout/core": "workspace:*",
+    "@repo-scout/schemas": "workspace:*",
+    "@repo-scout/cache": "workspace:*",
+    "@repo-scout/providers": "workspace:*",
+    "@repo-scout/scoring": "workspace:*"
+  }
+}

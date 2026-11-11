@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "types": ["node"],
+    "paths": {
+      "@repo-scout/schemas": ["./packages/schemas/src/index.ts"],
+      "@repo-scout/core": ["./packages/core/src/index.ts"],
+      "@repo-scout/cache": ["./packages/cache/src/index.ts"],
+      "@repo-scout/providers": ["./packages/providers/src/index.ts"],
+      "@repo-scout/intelligence": ["./packages/intelligence/src/index.ts"],
+      "@repo-scout/scoring": ["./packages/scoring/src/index.ts"],
+      "@repo-scout/analysis": ["./packages/analysis/src/index.ts"],
+      "@repo-scout/composer": ["./packages/composer/src/index.ts"],
+      "@repo-scout/trending": ["./packages/trending/src/index.ts"],
+      "@repo-scout/discovery": ["./packages/discovery/src/index.ts"],
+      "@repo-scout/report": ["./packages/report/src/index.ts"],
+      "@repo-scout/mcp": ["./packages/mcp/src/index.ts"]
+    }
+  },
+  "include": ["packages/*/src/**/*.ts", "tests/**/*.ts", "scripts/**/*.ts"]
+}

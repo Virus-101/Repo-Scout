@@ -1,0 +1,16 @@
+{
+  "name": "@repo-scout/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7",
+    "@repo-scout/core": "workspace:*",
+    "@repo-scout/schemas": "workspace:*",
+    "@repo-scout/discovery": "workspace:*",
+    "@repo-scout/report": "workspace:*",
+    "@repo-scout/cache": "workspace:*"
+  }
+}

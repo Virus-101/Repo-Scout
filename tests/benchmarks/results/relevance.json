@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-11-11T23:09:24.738Z",
+  "node": "v22.23.4",
+  "dataset": "synthetic (see datasets/relevance.json)",
+  "summary": [
+    {
+      "method": "stars-only",
+      "nDCG@5": 0.478,
+      "P@3(direct)": 0.396,
+      "MRR": 0.458
+    },
+    {
+      "method": "lexical-only",
+      "nDCG@5": 0.985,
+      "P@3(direct)": 0.938,
+      "MRR": 1
+    },
+    {
+      "method": "repo-scout",
+      "nDCG@5": 0.979,
+      "P@3(direct)": 1,
+      "MRR": 1
+    }
+  ],
+  "rows": [
+    {
+      "category": "ai-agents",
+      "method": "stars-only",
+      "ndcg5": 0.31192826482923813,
+      "p3": 0.3333333333333333,
+      "mrr": 0.3333333333333333
+    },
+    {
+      "category": "ai-agents",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "ai-agents",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "computer-vision",
+      "method": "stars-only",
+      "ndcg5": 0.40949481556443357,
+      "p3": 0,
+      "mrr": 0.25
+    },
+    {
+      "category": "computer-vision",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "computer-vision",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "web-development",
+      "method": "stars-only",
+      "ndcg5": 0.2485368216257015,
+      "p3": 0,
+      "mrr": 0.25
+    },
+    {
+      "category": "web-development",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "web-development",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "embedded",
+      "method": "stars-only",
+      "ndcg5": 0.4287237693797104,
+      "p3": 0.3333333333333333,
+      "mrr": 0.3333333333333333
+    },
+    {
+      "category": "embedded",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "embedded",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "data-engineering",
+      "method": "stars-only",
+      "ndcg5": 0.5169329980221172,
+      "p3": 0.5,
+      "mrr": 0.5
+    },
+    {
+      "category": "data-engineering",
+      "method": "lexical-only",
+      "ndcg5": 0.9355095261428396,
+      "p3": 0.5,
+      "mrr": 1
+    },
+    {
+      "category": "data-engineering",
+      "method": "repo-scout",
+      "ndcg5": 0.8955428290491828,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "developer-tooling",
+      "method": "stars-only",
+      "ndcg5": 0.7383121460922933,
+      "p3": 0.6666666666666666,
+      "mrr": 1
+    },
+    {
+      "category": "developer-tooling",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "developer-tooling",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "robotics",
+      "method": "stars-only",
+      "ndcg5": 0.5839296214770747,
+      "p3": 0.6666666666666666,
+      "mrr": 0.5
+    },
+    {
+      "category": "robotics",
+      "method": "lexical-only",
+      "ndcg5": 0.946347335353756,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "robotics",
+      "method": "repo-scout",
+      "ndcg5": 0.9402694138204842,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "security-tooling",
+      "method": "stars-only",
+      "ndcg5": 0.5839296214770747,
+      "p3": 0.6666666666666666,
+      "mrr": 0.5
+    },
+    {
+      "category": "security-tooling",
+      "method": "lexical-only",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    },
+    {
+      "category": "security-tooling",
+      "method": "repo-scout",
+      "ndcg5": 1,
+      "p3": 1,
+      "mrr": 1
+    }
+  ]
+}

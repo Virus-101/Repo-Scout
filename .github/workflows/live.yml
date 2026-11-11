@@ -1,0 +1,18 @@
+name: Live provider smoke tests (manual)
+on:
+  workflow_dispatch:
+  schedule: [{ cron: "17 5 * * 1" }]
+permissions: { contents: read }
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - name: Live tests (blocked/rate-limited providers are reported as skipped)
+        run: pnpm test:live
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

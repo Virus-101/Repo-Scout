@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <entry>
+  <id>http://arxiv.org/abs/2401.00001v1</id>
+  <updated>2024-01-02T00:00:00Z</updated>
+  <published>2024-01-01T00:00:00Z</published>
+  <title>Real-Time Detection &amp; Tracking with Transformers</title>
+  <summary>We propose RTDT. Code: https://github.com/example/rtdt and models.</summary>
+  <author><name>Ada Lovelace</name></author><author><name>Alan Turing</name></author>
+  <category term="cs.CV"/><category term="cs.LG"/>
+ </entry>
+</feed>

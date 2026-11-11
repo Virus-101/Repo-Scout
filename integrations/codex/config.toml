@@ -1,0 +1,6 @@
+# Append to ~/.codex/config.toml  (or: codex mcp add repo-scout -- npx -y repo-scout mcp)
+[mcp_servers.repo-scout]
+command = "npx"
+args = ["-y", "repo-scout", "mcp"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120

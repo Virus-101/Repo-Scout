@@ -1,0 +1,558 @@
+{
+  "_notice": "SYNTHETIC evaluation set. Candidates are hand-written representative records (names/descriptions invented or generalised, star counts and dates illustrative) with hand-assigned relevance grades (0 = irrelevant, 1 = partially relevant, 2 = directly relevant). It measures ranking behaviour on controlled cases, NOT real-world recommendation quality. See docs/development/evaluation.md for limitations.",
+  "queries": [
+    {
+      "category": "ai-agents",
+      "query": "autonomous AI agent framework with tool calling and memory in python",
+      "candidates": [
+        [
+          "agentic/orchestra",
+          "Python framework for autonomous LLM agents with tool calling and long-term memory",
+          ["ai-agents", "llm", "tool-use"],
+          "Python",
+          4200,
+          6,
+          "MIT",
+          2
+        ],
+        [
+          "lc/graphflow",
+          "Build stateful multi-agent workflows with LLMs, tools and persistent memory",
+          ["agents", "llm", "workflow"],
+          "Python",
+          18000,
+          3,
+          "MIT",
+          2
+        ],
+        [
+          "tiny/agentlet",
+          "Minimal agent loop with function calling in 300 lines",
+          ["agents", "function-calling"],
+          "Python",
+          85,
+          12,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "old/botkit-legacy",
+          "Chatbot rules engine for IRC",
+          ["chatbot", "irc"],
+          "Perl",
+          9000,
+          2200,
+          "GPL-2.0",
+          0
+        ],
+        [
+          "fancy/ui-kit",
+          "React component library for dashboards",
+          ["react", "ui"],
+          "TypeScript",
+          60000,
+          2,
+          "MIT",
+          0
+        ],
+        [
+          "vec/embedstore",
+          "Vector database for embeddings and semantic memory",
+          ["vector-database", "embeddings"],
+          "Rust",
+          9000,
+          4,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "ml/llm-train",
+          "Distributed training scripts for large language models",
+          ["llm", "training"],
+          "Python",
+          30000,
+          5,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "abandoned/agent-zero-old",
+          "Autonomous agent framework with tools and memory",
+          ["agents", "llm"],
+          "Python",
+          1500,
+          900,
+          "MIT",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "computer-vision",
+      "query": "real-time object detection yolo opencv",
+      "candidates": [
+        [
+          "vision/rt-detect",
+          "Real-time object detection models and inference with YOLO and ONNX",
+          ["object-detection", "yolo", "computer-vision"],
+          "Python",
+          12000,
+          9,
+          "AGPL-3.0",
+          2
+        ],
+        [
+          "open/detector-lite",
+          "Lightweight real-time object detector for edge devices with OpenCV",
+          ["object-detection", "opencv", "edge"],
+          "C++",
+          900,
+          20,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "cv/opencv-extras",
+          "OpenCV helper utilities for image processing",
+          ["opencv", "image-processing"],
+          "Python",
+          3000,
+          30,
+          "MIT",
+          1
+        ],
+        ["web/photo-gallery", "Self-hosted photo gallery", ["photos", "gallery"], "Go", 45000, 1, "MIT", 0],
+        [
+          "old/haar-cascade-demo",
+          "Haar cascade face detection demo",
+          ["opencv", "face-detection"],
+          "Python",
+          700,
+          1800,
+          "MIT",
+          1
+        ],
+        [
+          "ml/classifier-zoo",
+          "Image classification model zoo",
+          ["classification", "pytorch"],
+          "Python",
+          22000,
+          8,
+          "Apache-2.0",
+          1
+        ],
+        ["chat/llm-ui", "Chat UI for language models", ["llm", "ui"], "TypeScript", 70000, 1, "MIT", 0],
+        [
+          "rt/track-fast",
+          "Fast multi-object tracking on top of YOLO detections, real-time",
+          ["tracking", "yolo", "real-time"],
+          "Python",
+          5200,
+          11,
+          "MIT",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "web-development",
+      "query": "react typescript admin dashboard with authentication",
+      "candidates": [
+        [
+          "admin/react-admin-kit",
+          "Admin dashboard framework for React and TypeScript with auth providers",
+          ["react", "admin", "dashboard", "typescript"],
+          "TypeScript",
+          24000,
+          4,
+          "MIT",
+          2
+        ],
+        [
+          "ui/dash-template",
+          "Free React admin dashboard template with login pages",
+          ["react", "dashboard", "template"],
+          "TypeScript",
+          3500,
+          15,
+          "MIT",
+          2
+        ],
+        ["vue/vue-admin", "Vue 3 admin dashboard", ["vue", "admin"], "TypeScript", 28000, 6, "MIT", 1],
+        [
+          "auth/oidc-lib",
+          "OpenID Connect client library for single page apps",
+          ["oidc", "authentication", "react"],
+          "TypeScript",
+          2600,
+          7,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "db/sql-orm",
+          "TypeScript ORM for SQL databases",
+          ["orm", "sql"],
+          "TypeScript",
+          36000,
+          2,
+          "Apache-2.0",
+          0
+        ],
+        ["game/pixel-engine", "2D game engine", ["game-engine"], "C++", 52000, 3, "MIT", 0],
+        ["php/legacy-cms", "Content management system", ["cms", "php"], "PHP", 14000, 700, "GPL-2.0", 0],
+        [
+          "fast/react-lite-dash",
+          "Tiny dashboard starter for React with JWT login",
+          ["react", "dashboard", "jwt", "authentication"],
+          "TypeScript",
+          140,
+          9,
+          "MIT",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "embedded",
+      "query": "rtos firmware framework for esp32 microcontroller",
+      "candidates": [
+        [
+          "rt/esp-rtos",
+          "Real-time operating system port and framework for ESP32 microcontrollers",
+          ["esp32", "rtos", "embedded"],
+          "C",
+          6500,
+          10,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "fw/micro-hal",
+          "Hardware abstraction layer firmware for ARM microcontrollers including ESP32",
+          ["firmware", "hal", "esp32"],
+          "C",
+          1800,
+          25,
+          "MIT",
+          2
+        ],
+        [
+          "arduino/sensor-libs",
+          "Arduino sensor driver collection",
+          ["arduino", "sensors"],
+          "C++",
+          2200,
+          40,
+          "MIT",
+          1
+        ],
+        [
+          "rust/embedded-hal",
+          "Rust embedded hardware abstraction traits",
+          ["embedded", "rust", "hal"],
+          "Rust",
+          1700,
+          12,
+          "Apache-2.0",
+          1
+        ],
+        ["web/blog-engine", "Static blog generator", ["blog"], "JavaScript", 33000, 5, "MIT", 0],
+        ["ai/llm-runner", "Run LLMs locally", ["llm"], "C++", 80000, 1, "MIT", 0],
+        [
+          "old/pic-toolkit",
+          "PIC microcontroller toolchain",
+          ["pic", "microcontroller"],
+          "C",
+          400,
+          2500,
+          "GPL-2.0",
+          1
+        ],
+        [
+          "iot/esp-mqtt-fw",
+          "ESP32 firmware framework with RTOS tasks and MQTT",
+          ["esp32", "firmware", "rtos", "mqtt"],
+          "C",
+          320,
+          8,
+          "MIT",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "data-engineering",
+      "query": "etl data pipeline orchestration airflow alternative",
+      "candidates": [
+        [
+          "flow/orchestrator",
+          "Workflow orchestration platform for data pipelines, an Airflow alternative",
+          ["orchestration", "etl", "data-pipeline"],
+          "Python",
+          16000,
+          5,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "dag/taskgraph",
+          "Lightweight DAG scheduler for ETL jobs",
+          ["dag", "etl", "scheduler"],
+          "Python",
+          900,
+          14,
+          "MIT",
+          2
+        ],
+        [
+          "dbt/transformer",
+          "SQL transformation framework for the warehouse",
+          ["dbt", "sql", "analytics"],
+          "Python",
+          9000,
+          6,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "kafka/stream-lib",
+          "Kafka streaming client",
+          ["kafka", "streaming"],
+          "Java",
+          7000,
+          9,
+          "Apache-2.0",
+          1
+        ],
+        ["ui/chart-lib", "JavaScript charting library", ["charts"], "JavaScript", 65000, 2, "MIT", 0],
+        ["tools/csv-cleaner", "Small CSV cleaning CLI", ["csv", "cli"], "Go", 300, 30, "MIT", 0],
+        [
+          "old/oozie-like",
+          "Hadoop workflow scheduler for ETL",
+          ["hadoop", "etl", "workflow"],
+          "Java",
+          2100,
+          1500,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "spark/quality-checks",
+          "Data quality checks for Spark pipelines",
+          ["data-quality", "spark"],
+          "Scala",
+          1800,
+          10,
+          "Apache-2.0",
+          1
+        ]
+      ]
+    },
+    {
+      "category": "developer-tooling",
+      "query": "fast linter and formatter command line tool for python",
+      "candidates": [
+        [
+          "rust/py-lint-fast",
+          "Extremely fast Python linter and formatter written in Rust",
+          ["python", "linter", "formatter"],
+          "Rust",
+          36000,
+          1,
+          "MIT",
+          2
+        ],
+        [
+          "py/black-like",
+          "Opinionated Python code formatter",
+          ["python", "formatter"],
+          "Python",
+          38000,
+          7,
+          "MIT",
+          2
+        ],
+        [
+          "py/flake-ext",
+          "Plugin collection for a Python linter",
+          ["python", "linter", "flake8"],
+          "Python",
+          900,
+          90,
+          "MIT",
+          1
+        ],
+        ["js/eslint-config-x", "Shareable ESLint config", ["eslint"], "JavaScript", 2000, 30, "MIT", 0],
+        ["go/yaml-lint", "YAML linter CLI", ["yaml", "linter", "cli"], "Go", 3200, 20, "MIT", 1],
+        ["game/shader-toy", "Shader playground", ["shaders"], "C++", 12000, 5, "MIT", 0],
+        [
+          "old/pylint-fork",
+          "Fork of an old Python linter",
+          ["python", "linter"],
+          "Python",
+          120,
+          1700,
+          "GPL-2.0",
+          1
+        ],
+        [
+          "tiny/pyfmt",
+          "Tiny Python formatter CLI with zero dependencies",
+          ["python", "formatter", "cli"],
+          "Python",
+          60,
+          15,
+          "Unlicense",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "robotics",
+      "query": "ros2 navigation slam mobile robot",
+      "candidates": [
+        [
+          "ros/nav-stack2",
+          "Navigation stack for ROS2 mobile robots",
+          ["ros2", "navigation", "robotics"],
+          "C++",
+          3200,
+          6,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "slam/lidar-slam",
+          "Real-time LiDAR SLAM for ROS2",
+          ["slam", "lidar", "ros2"],
+          "C++",
+          2400,
+          12,
+          "BSD-3-Clause",
+          2
+        ],
+        [
+          "ros/moveit-lite",
+          "Motion planning for manipulators",
+          ["motion-planning", "ros"],
+          "C++",
+          1500,
+          20,
+          "BSD-3-Clause",
+          1
+        ],
+        [
+          "sim/gazebo-models",
+          "Simulation models for robot testing",
+          ["simulation", "gazebo"],
+          "Python",
+          800,
+          50,
+          "Apache-2.0",
+          1
+        ],
+        [
+          "web/robot-dashboard",
+          "Web dashboard for fleet status",
+          ["dashboard"],
+          "TypeScript",
+          600,
+          10,
+          "MIT",
+          0
+        ],
+        ["ai/diffusion-art", "Image generation UI", ["diffusion"], "Python", 90000, 1, "AGPL-3.0", 0],
+        [
+          "old/ros1-nav",
+          "ROS1 navigation (unmaintained)",
+          ["ros", "navigation"],
+          "C++",
+          1900,
+          1600,
+          "BSD-3-Clause",
+          1
+        ],
+        [
+          "tiny/amr-nav",
+          "Small autonomous mobile robot navigation on ROS2 with SLAM toolbox",
+          ["ros2", "slam", "navigation", "amr"],
+          "Python",
+          95,
+          7,
+          "MIT",
+          2
+        ]
+      ]
+    },
+    {
+      "category": "security-tooling",
+      "query": "dependency vulnerability scanner and secrets scanning for ci",
+      "candidates": [
+        [
+          "sec/vuln-scan",
+          "Vulnerability scanner for dependencies, containers and IaC in CI",
+          ["vulnerability-scanner", "sca", "security"],
+          "Go",
+          22000,
+          2,
+          "Apache-2.0",
+          2
+        ],
+        [
+          "sec/secret-hunter",
+          "Find leaked secrets and credentials in git repositories and CI",
+          ["secrets", "scanner", "security"],
+          "Go",
+          17000,
+          3,
+          "MIT",
+          2
+        ],
+        [
+          "sec/sast-lite",
+          "Static analysis security testing for several languages",
+          ["sast", "security"],
+          "Python",
+          11000,
+          8,
+          "LGPL-2.1",
+          1
+        ],
+        [
+          "sec/fuzz-kit",
+          "Coverage guided fuzzing toolkit",
+          ["fuzzing", "security"],
+          "C++",
+          6000,
+          14,
+          "Apache-2.0",
+          1
+        ],
+        ["web/login-form", "Pretty login form component", ["ui"], "TypeScript", 4000, 4, "MIT", 0],
+        ["ops/log-shipper", "Log shipping agent", ["logging"], "Go", 30000, 2, "Apache-2.0", 0],
+        [
+          "old/nessus-clone",
+          "Old network vulnerability scanner",
+          ["vulnerability-scanner", "network"],
+          "Perl",
+          1500,
+          2400,
+          "GPL-2.0",
+          1
+        ],
+        [
+          "tiny/dep-audit",
+          "Tiny dependency audit CLI that checks OSV in CI pipelines",
+          ["dependency", "vulnerability", "osv", "ci"],
+          "Rust",
+          220,
+          6,
+          "MIT",
+          2
+        ]
+      ]
+    }
+  ]
+}

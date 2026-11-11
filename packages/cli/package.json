@@ -1,0 +1,67 @@
+{
+  "name": "repo-scout",
+  "version": "0.1.0",
+  "description": "Find the building blocks. Build smarter. Local-first repository discovery & implementation intelligence for AI coding agents (CLI + MCP server + agent skill).",
+  "type": "module",
+  "license": "MIT",
+  "author": "Repo Scout contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virus-101/repo-scout.git"
+  },
+  "homepage": "https://github.com/virus-101/repo-scout#readme",
+  "bugs": {
+    "url": "https://github.com/virus-101/repo-scout/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "github",
+    "repository-discovery",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "codex",
+    "open-source"
+  ],
+  "bin": {
+    "repo-scout": "dist/cli.js",
+    "repo-scout-mcp": "dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "integrations",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "commander": "^15.1.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@repo-scout/core": "workspace:*",
+    "@repo-scout/schemas": "workspace:*",
+    "@repo-scout/cache": "workspace:*",
+    "@repo-scout/providers": "workspace:*",
+    "@repo-scout/intelligence": "workspace:*",
+    "@repo-scout/scoring": "workspace:*",
+    "@repo-scout/analysis": "workspace:*",
+    "@repo-scout/composer": "workspace:*",
+    "@repo-scout/trending": "workspace:*",
+    "@repo-scout/discovery": "workspace:*",
+    "@repo-scout/report": "workspace:*",
+    "@repo-scout/mcp": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  }
+}

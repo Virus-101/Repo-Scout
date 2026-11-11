@@ -1,0 +1,1 @@
+{"name":"sample-app","license":"MIT","bin":{"sample":"cli.js"},"main":"index.js","engines":{"node":">=18"},"scripts":{"postinstall":"node setup.js","test":"vitest"},"dependencies":{"express":"^4.17.1","lodash":"4.17.20","@modelcontextprotocol/sdk":"^1.0.0"},"devDependencies":{"vitest":"^1.0.0"}}

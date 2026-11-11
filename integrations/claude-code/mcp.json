@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "repo-scout": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "repo-scout", "mcp"],
+      "env": {}
+    }
+  }
+}

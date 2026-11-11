@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.repo-scout/
+*.tgz
+.DS_Store
+packages/cli/skills/
+packages/cli/integrations/
+packages/cli/LICENSE
+packages/cli/README.md

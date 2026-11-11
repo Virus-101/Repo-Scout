@@ -1,0 +1,21 @@
+name: Bug report
+description: Something is wrong or misleading
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      {
+        label: What happened,
+        description: "Include the command/MCP tool and (redacted) output. Never paste tokens.",
+      }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected behaviour }
+  - type: textarea
+    id: doctor
+    attributes: { label: "`repo-scout doctor --json` output (tokens are not printed)", render: json }
+  - type: input
+    id: version
+    attributes: { label: Version / OS / Node }

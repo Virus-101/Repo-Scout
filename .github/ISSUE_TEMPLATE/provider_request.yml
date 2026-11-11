@@ -1,0 +1,14 @@
+name: New provider / ecosystem
+description: Propose a provider (registry, host, research source)
+labels: [provider]
+body:
+  - type: input
+    id: name
+    attributes: { label: Provider and API docs URL }
+    validations: { required: true }
+  - type: textarea
+    id: terms
+    attributes: { label: Terms, rate limits, auth, robots policy }
+  - type: textarea
+    id: shape
+    attributes: { label: Sample response shape (public data only) }

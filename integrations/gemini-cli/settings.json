@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "repo-scout": {
+      "command": "npx",
+      "args": ["-y", "repo-scout", "mcp"],
+      "timeout": 120000,
+      "trust": false
+    }
+  }
+}
